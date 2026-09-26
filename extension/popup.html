@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <style>
+      body { font: 13px system-ui, sans-serif; width: 280px; margin: 12px; }
+      label { display: block; margin-top: 10px; }
+      input[type="text"], input[type="number"] { width: 100%; box-sizing: border-box; }
+      #status { font-weight: 600; }
+      .hint { color: #666; font-size: 12px; }
+      button { margin-top: 12px; }
+    </style>
+  </head>
+  <body>
+    <div>Status: <span id="status">…</span></div>
+    <label>Pairing token <input id="token" type="text" autocomplete="off" /></label>
+    <div class="hint">From <code>~/.postmaster/token</code> on this machine.</div>
+    <label>Port <input id="port" type="number" min="1" max="65535" /></label>
+    <label><input id="autoSubmit" type="checkbox" /> Submit posts automatically</label>
+    <div class="hint">Off: the post is typed into the composer and you click Post yourself.</div>
+    <button id="save">Save</button>
+    <script src="popup.js"></script>
+  </body>
+</html>

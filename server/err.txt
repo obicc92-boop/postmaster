@@ -1,0 +1,2 @@
+[postmaster] generated pairing token in /tmp/tmp.EQYhFtowXZ/.postmaster/token
+[postmaster] waiting for extension on ws://127.0.0.1:37263
