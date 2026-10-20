@@ -1,0 +1,8 @@
+# raw recordings (too big for GitHub) and render intermediates
+dl/
+m[0-9]*/
+ref/
+out*/
+venv/
+__pycache__/
+*.mkv
